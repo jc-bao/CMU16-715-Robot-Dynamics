@@ -91,7 +91,7 @@ $$
 \frac{d}{dt} \frac{\partial L'}{\partial \dot{q}} - \frac{\partial L'}{\partial q} - \lambda^T \frac{dc(q)}{dq} = 0
 $$
 
-where $\lambda$ is the Lagrange multiplier (constraint force) and $J(q) = \frac{dc(q)}{dq}$ is the Jacobian matrix of the constraint. 
+where $\lambda$ is the Lagrange multiplier (**constraint force**) and $J(q) = \frac{dc(q)}{dq}$ is the Jacobian matrix of the constraint. 
 
 The new manipulator equation is:
 
