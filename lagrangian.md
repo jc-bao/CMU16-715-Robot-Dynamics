@@ -105,7 +105,7 @@ $$
 \frac{d^2 c(q)}{dt^2} = \frac{d}{dt} (\frac{dc}{dq} \dot{q}) =J\ddot{q} + \frac{d}{dq}(J \dot{q}) \dot{q} = 0 \\
 $$
 
-Now the equation is:
+Now the equation is: (KKT condition)
 
 $$
 \begin{bmatrix}
@@ -128,3 +128,6 @@ $$
 L = \frac{1}{2} m (x^2 + y^2) - mgy \\
 c = x^2 + y^2 - l^2 = 0 
 $$
+
+## Simulation with Constraints
+
