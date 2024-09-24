@@ -36,5 +36,3 @@ $$
 - intuition: convert global property (like minimizing energy) to local property (consistency between neighboring points). Very similar to dynamic programming. 
 - 🌟 relation to DP, RL: this idea that local optimality leads to global optimality is very powerful. This is called the Princeple of Optimality of Bellman's Principle of Optimality. 
 - 🌟 relation to optimal control: L -> cost, c-> dynamics. q -> state, $\dot{q}$ -> control. (note: here the control is the velocity, a special control system. )
-
-
