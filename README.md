@@ -4,7 +4,7 @@ Lecture notes for CMU 16715 Advanced Robot Dynamics.
 ## Overview
 
 - Describe a system: Newton-Euler, Lagrangian, and Hamiltonian
-- Simulate a system: 
+- Simulate a system: discretization, integration, SO(3)
 - Contact: simulate contact and friction. 
 - Understand simulator: why it diverges, why it is not deterministic, why the contact not act the way we want, what could be the sim2real gap. 
 
@@ -25,21 +25,24 @@ Lecture notes for CMU 16715 Advanced Robot Dynamics.
 - Lecture 8: Stability of spinning rigid body, numerical simulation of 3d Rotations, 
 - Lecture 9: Newton-Euler dynamics, SE3, Quadrotor, Airplane
 
-### Optimization Recap
+### Optimization Recap [Notebook](./math.md)
 
 - Lecture 10: Root finding, Minimization. 
 - Lecture 11: Constrained Minimization, Equality Constraints, Inequality Constraints. 
 
-### Lagrangian Dynamics
+### Lagrangian Dynamics [Notebook](./lagrangian.md)
 
-- Lecture 12: Calculus of Variations, Euler-Lagrange Equation. 🌟
-- Lecture 13: Dynamics from Energy, Lagrangian Mechanics, Least-action principle. 🌟
-- Lecture 14: Interpretation of Least Action, Manipulator Equation, Non-convervative, Contraints, Coordinates. 🌟
-- Lecture 15: Simulation with Constraints, Differential Algebraic Equations, Variational Integrator. 🌟
-- Lecture 16: Momentum, Legendre Transform, Hamiltonian Mechanics🌟
-- Lecture 17: Discrete Legendre Transform, Variational Integrator with Constraints. 🌟
-- Lecture 18: Contact Dynamics, Discrete Mechanics with Impacts. 🌟
-- Lecture 19: Coulomb Friction, Maximum Dissipation Principle, LCP Methods. 🌟
+- Lecture 12: Calculus of Variations, Euler-Lagrange Equation.
+- Lecture 13: Dynamics from Energy, Lagrangian Mechanics, Least-action principle. 
+- Lecture 14: Interpretation of Least Action, Manipulator Equation, Non-convervative, Contraints, Coordinates. 
+- Lecture 15: Simulation with Constraints, Differential Algebraic Equations, Variational Integrator.
+- Lecture 16: Momentum, Legendre Transform, Hamiltonian Mechanics
+- Lecture 17: Discrete Legendre Transform, Variational Integrator with Constraints. 
+
+### Contact Dynamics [Notebook](./contact.md)
+
+- Lecture 18: Contact Dynamics, Discrete Mechanics with Impacts. 
+- Lecture 19: Coulomb Friction, Maximum Dissipation Principle, LCP Methods. 
 
 ### Applications and Extensions
 
@@ -55,4 +58,8 @@ Lecture notes for CMU 16715 Advanced Robot Dynamics.
 
 [Lecture Notebooks](https://github.com/dynamics-simulation-16-715/lecture-notebooks/tree/main)
 
-[Video Lectures]()
+[Video Lectures](https://www.youtube.com/watch?v=LiNgr1tz49I&list=PLZnJoM76RM6ItAfZIxJYNKdaR_BobleLY&index=1)
+
+[Physics-Based Simulation](https://phys-sim-book.github.io/)
+
+[Mujoco Offical Documentation](https://mujoco.readthedocs.io/en/stable/overview.html)

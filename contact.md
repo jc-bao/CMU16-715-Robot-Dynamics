@@ -10,7 +10,7 @@
   - Hybrid/Event-Driven Method: detect contact with guard function with extra jump map. Common in control. 
     - Pros: not stiff, can use standard ODE solver. 
     - Cons: Scale poorly with number of contacts, handle simutaneous contacts poorly, not differentiable, hard to design general simulators. 
-  - Time-stepping methods:compute the contact force at each time step to satisfy the contact constraint. Used in Gazebo, Dart, Gazebo. 
+  - Time-stepping methods:compute the contact force at each time step to satisfy the contact constraint. Used in Gazebo, Dart, Bullet. 
     - Pros: scales well with number of contacts, handle simultaneous contacts well, give correct physics. 
     - Cons: computationally expensive (solve optimization at each time step), not differentiable
 
